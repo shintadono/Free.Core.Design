@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormatCountInParentheses" xml:space="preserve">
+    <value>(Count={0})</value>
+  </data>
+  <data name="BoolInListDescription" xml:space="preserve">
+    <value>This is a boolean value in a list of booleans.</value>
+  </data>
+  <data name="NumberInListDescription" xml:space="preserve">
+    <value>This is a number in a list of numbers.</value>
+  </data>
+  <data name="StringInListDescription" xml:space="preserve">
+    <value>This is a string in a list of strings.</value>
+  </data>
+  <data name="ParametersInListDescription" xml:space="preserve">
+    <value>This is a Parameters value in a list of Parameters.</value>
+  </data>
+  <data name="ParametersInParametersDescription" xml:space="preserve">
+    <value>This is a Parameters value in a Parameters.</value>
+  </data>
+  <data name="LongInParametersDescription" xml:space="preserve">
+    <value>This is a 64-bit integer value in a Parameters.</value>
+  </data>
+  <data name="DoubleInParametersDescription" xml:space="preserve">
+    <value>This is a floating-point value in a Parameters.</value>
+  </data>
+  <data name="StringInParametersDescription" xml:space="preserve">
+    <value>This is a string in a Parameters.</value>
+  </data>
+  <data name="BoolInParametersDescription" xml:space="preserve">
+    <value>This is a boolean value in a Parameters.</value>
+  </data>
+  <data name="ByteArrayInParametersDescription" xml:space="preserve">
+    <value>This is an array of bytes in a Parameters.</value>
+  </data>
+  <data name="LongListInParametersDescription" xml:space="preserve">
+    <value>This is a list of 64-bit integer values in a Parameters.</value>
+  </data>
+  <data name="DoubleListInParametersDescription" xml:space="preserve">
+    <value>This is a list of  floating-point values in a Parameters.</value>
+  </data>
+  <data name="StringListInParametersDescription" xml:space="preserve">
+    <value>This is a list of strings in a Parameters.</value>
+  </data>
+  <data name="BoolListInParametersDescription" xml:space="preserve">
+    <value>This is a list of boolean values in a Parameters.</value>
+  </data>
+  <data name="ParametersListInParametersDescription" xml:space="preserve">
+    <value>This is a list of Parameters values in a Parameters.</value>
+  </data>
+  <data name="ParametersEditorFormParametersDescription" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="ParametersEditorFormLongDescription" xml:space="preserve">
+    <value>64-bit integer number</value>
+  </data>
+  <data name="ParametersEditorFormDoubleDescription" xml:space="preserve">
+    <value>Floating-point number</value>
+  </data>
+  <data name="ParametersEditorFormStringDescription" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="ParametersEditorFormBoolDescription" xml:space="preserve">
+    <value>Boolean</value>
+  </data>
+  <data name="ParametersEditorFormByteArrayDescription" xml:space="preserve">
+    <value>Array of bytes</value>
+  </data>
+  <data name="ParametersEditorFormLongListDescription" xml:space="preserve">
+    <value>List of 64-bit integer numbers</value>
+  </data>
+  <data name="ParametersEditorFormDoubleListDescription" xml:space="preserve">
+    <value>List of floating-point numbers</value>
+  </data>
+  <data name="ParametersEditorFormStringListDescription" xml:space="preserve">
+    <value>List of strings</value>
+  </data>
+  <data name="ParametersEditorFormBoolListDescription" xml:space="preserve">
+    <value>List of booleans</value>
+  </data>
+  <data name="ParametersEditorFormParametersListDescription" xml:space="preserve">
+    <value>List of Parameters</value>
+  </data>
+  <data name="ParametersEditorFormParametersDefaultName" xml:space="preserve">
+    <value>parameters</value>
+  </data>
+  <data name="ParametersEditorFormBoolDefaultName" xml:space="preserve">
+    <value>boolean</value>
+  </data>
+  <data name="ParametersEditorFormLongDefaultName" xml:space="preserve">
+    <value>integernumber</value>
+  </data>
+  <data name="ParametersEditorFormDoubleDefaultName" xml:space="preserve">
+    <value>floatingpointnumber</value>
+  </data>
+  <data name="ParametersEditorFormStringDefaultName" xml:space="preserve">
+    <value>string</value>
+  </data>
+  <data name="ParametersEditorFormByteArrayDefaultName" xml:space="preserve">
+    <value>bytes</value>
+  </data>
+  <data name="ParametersEditorFormBoolListDefaultName" xml:space="preserve">
+    <value>booleans</value>
+  </data>
+  <data name="ParametersEditorFormLongListDefaultName" xml:space="preserve">
+    <value>integernumbers</value>
+  </data>
+  <data name="ParametersEditorFormDoubleListDefaultName" xml:space="preserve">
+    <value>floatingpointnumbers</value>
+  </data>
+  <data name="ParametersEditorFormStringListDefaultName" xml:space="preserve">
+    <value>strings</value>
+  </data>
+  <data name="ParametersEditorFormParametersListDefaultName" xml:space="preserve">
+    <value>listofParameters</value>
+  </data>
+  <data name="ParametersEditorFormNameInUseErrorMessageBoxText" xml:space="preserve">
+    <value>Item with same name already exists in Parameters.</value>
+  </data>
+  <data name="ParametersEditorFormNameInUseErrorMessageBoxCaption" xml:space="preserve">
+    <value>Name already used!</value>
+  </data>
+  <data name="ParameterEditorFormListConversionLossOfDataWarningMessageBoxText" xml:space="preserve">
+    <value>List contains more than one element. All elements but the first will be lost in conversion of the type.
+
+Continue anyway?</value>
+  </data>
+  <data name="ParameterEditorFormListConversionLossOfDataWarningMessageBoxCaption" xml:space="preserve">
+    <value>Loss of data!</value>
+  </data>
+  <data name="ByteInArrayDescription" xml:space="preserve">
+    <value>This is a byte in an array.</value>
+  </data>
+  <data name="SortDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sortdown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SortUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sortup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormatListConverterIndexInParenthese" xml:space="preserve">
+    <value>[{0}]</value>
+  </data>
+  <data name="ListEditorFormsPropertiesLabelWithoutText" xml:space="preserve">
+    <value>Propertie&amp;s:</value>
+  </data>
+  <data name="FormatListEditorFormsPropertiesLabelWithText" xml:space="preserve">
+    <value>{0} propertie&amp;s:</value>
+  </data>
+  <data name="FormatStringInDoublequotes" xml:space="preserve">
+    <value>"{0}"</value>
+  </data>
+  <data name="ListEditorFormPropertyGridValueNameText" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="ListOfParametersEditorGridValueTypeText" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="ListOfStringEditorGridValueTypeText" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="ListOfDoubleEditorGridValueTypeText" xml:space="preserve">
+    <value>Floating-point Number</value>
+  </data>
+  <data name="ListOfLongEditorGridValueTypeText" xml:space="preserve">
+    <value>64-bit Integer Number</value>
+  </data>
+  <data name="TypeInTypedListDescription" xml:space="preserve">
+    <value>This is a {0} value in a list of {0} values.</value>
+  </data>
+  <data name="TypeInParametersDescription" xml:space="preserve">
+    <value>This is a {0} value in a Parameters.</value>
+  </data>
+  <data name="ListOfLongEditorCaption" xml:space="preserve">
+    <value>64-bit Integer Number List Editor</value>
+  </data>
+  <data name="ListOfDoubleEditorCaption" xml:space="preserve">
+    <value>Floating-point Number List Editor</value>
+  </data>
+  <data name="ListOfStringEditorCaption" xml:space="preserve">
+    <value>String List Editor</value>
+  </data>
+  <data name="ListOfParametersEditorCaption" xml:space="preserve">
+    <value>Parameters List Editor</value>
+  </data>
+</root>

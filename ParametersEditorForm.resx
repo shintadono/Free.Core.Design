@@ -1,0 +1,906 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="elementsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="elementsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="elementsLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="elementsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="elementsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="elementsLabel.Text" xml:space="preserve">
+    <value>&amp;Elements:</value>
+  </data>
+  <data name="&gt;&gt;elementsLabel.Name" xml:space="preserve">
+    <value>elementsLabel</value>
+  </data>
+  <data name="&gt;&gt;elementsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;elementsLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;elementsLabel.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="listbox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="listbox.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="listbox.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="listbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 32</value>
+  </data>
+  <data name="listbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 18, 6</value>
+  </data>
+  <data name="listbox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="listbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 223</value>
+  </data>
+  <data name="listbox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;listbox.Name" xml:space="preserve">
+    <value>listbox</value>
+  </data>
+  <data name="&gt;&gt;listbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listbox.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="propertyBrowser.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="propertyBrowser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 32</value>
+  </data>
+  <data name="propertyBrowser.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 6</value>
+  </data>
+  <data name="propertyBrowser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 258</value>
+  </data>
+  <data name="propertyBrowser.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;propertyBrowser.Name" xml:space="preserve">
+    <value>propertyBrowser</value>
+  </data>
+  <data name="&gt;&gt;propertyBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PropertyGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;propertyBrowser.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;propertyBrowser.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="addButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="addButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="addButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 264</value>
+  </data>
+  <data name="addButton.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="addButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="addButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="addButton.Text" xml:space="preserve">
+    <value>&amp;Add</value>
+  </data>
+  <data name="&gt;&gt;addButton.Name" xml:space="preserve">
+    <value>addButton</value>
+  </data>
+  <data name="&gt;&gt;addButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addButton.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="removeButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="removeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 264</value>
+  </data>
+  <data name="removeButton.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="removeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="removeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="removeButton.Text" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="&gt;&gt;removeButton.Name" xml:space="preserve">
+    <value>removeButton</value>
+  </data>
+  <data name="&gt;&gt;removeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removeButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;removeButton.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="okButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="okButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 299</value>
+  </data>
+  <data name="okButton.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="okButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="okButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="okButton.Text" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="&gt;&gt;okButton.Name" xml:space="preserve">
+    <value>okButton</value>
+  </data>
+  <data name="&gt;&gt;okButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;okButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;okButton.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cancelButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cancelButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 299</value>
+  </data>
+  <data name="cancelButton.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cancelButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="cancelButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cancelButton.Text" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="&gt;&gt;cancelButton.Name" xml:space="preserve">
+    <value>cancelButton</value>
+  </data>
+  <data name="&gt;&gt;cancelButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cancelButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cancelButton.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="propertiesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="propertiesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 12</value>
+  </data>
+  <data name="propertiesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="propertiesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="propertiesLabel.Text" xml:space="preserve">
+    <value>Propertie&amp;s:</value>
+  </data>
+  <data name="&gt;&gt;propertiesLabel.Name" xml:space="preserve">
+    <value>propertiesLabel</value>
+  </data>
+  <data name="&gt;&gt;propertiesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;propertiesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;propertiesLabel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="buttonChangeType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="buttonChangeType.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="buttonChangeType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 293</value>
+  </data>
+  <data name="buttonChangeType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 23</value>
+  </data>
+  <data name="buttonChangeType.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="buttonChangeType.Text" xml:space="preserve">
+    <value>Change &amp;Type</value>
+  </data>
+  <data name="&gt;&gt;buttonChangeType.Name" xml:space="preserve">
+    <value>buttonChangeType</value>
+  </data>
+  <data name="&gt;&gt;buttonChangeType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonChangeType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonChangeType.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="contextMenuStripStringTo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>188, 17</value>
+  </metadata>
+  <data name="listOfStringsToolStripMenuItemStringTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 22</value>
+  </data>
+  <data name="listOfStringsToolStripMenuItemStringTo.Text" xml:space="preserve">
+    <value>List of strings</value>
+  </data>
+  <data name="contextMenuStripStringTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 26</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripStringTo.Name" xml:space="preserve">
+    <value>contextMenuStripStringTo</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripStringTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="contextMenuStripListOfStringsTo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>383, 17</value>
+  </metadata>
+  <data name="stringToolStripMenuItemStringListTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 22</value>
+  </data>
+  <data name="stringToolStripMenuItemStringListTo.Text" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="contextMenuStripListOfStringsTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 26</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripListOfStringsTo.Name" xml:space="preserve">
+    <value>contextMenuStripListOfStringsTo</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripListOfStringsTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="contextMenuStripBooleanTo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>615, 17</value>
+  </metadata>
+  <data name="listOfBooleansToolStripMenuItemBooleanTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="listOfBooleansToolStripMenuItemBooleanTo.Text" xml:space="preserve">
+    <value>List of boolean values</value>
+  </data>
+  <data name="contextMenuStripBooleanTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 26</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripBooleanTo.Name" xml:space="preserve">
+    <value>contextMenuStripBooleanTo</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripBooleanTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="contextMenuStripListOfBooleansTo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>822, 17</value>
+  </metadata>
+  <data name="booleanToolStripMenuItemListOfBooleansTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="booleanToolStripMenuItemListOfBooleansTo.Text" xml:space="preserve">
+    <value>Boolean value</value>
+  </data>
+  <data name="contextMenuStripListOfBooleansTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 26</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripListOfBooleansTo.Name" xml:space="preserve">
+    <value>contextMenuStripListOfBooleansTo</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripListOfBooleansTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="contextMenuStripIntegerNumberTo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1066, 17</value>
+  </metadata>
+  <data name="floatingPointNumberToolStripMenuItemIntegerNumberTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="floatingPointNumberToolStripMenuItemIntegerNumberTo.Text" xml:space="preserve">
+    <value>Floating-point number</value>
+  </data>
+  <data name="listOfIntegerNumbersToolStripMenuItemIntegerNumberTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="listOfIntegerNumbersToolStripMenuItemIntegerNumberTo.Text" xml:space="preserve">
+    <value>List of 64-bit integer numbers</value>
+  </data>
+  <data name="listOfFloatingPointNumbersToolStripMenuItemIntegerNumberTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="listOfFloatingPointNumbersToolStripMenuItemIntegerNumberTo.Text" xml:space="preserve">
+    <value>List of floating-point numbers</value>
+  </data>
+  <data name="contextMenuStripIntegerNumberTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 70</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripIntegerNumberTo.Name" xml:space="preserve">
+    <value>contextMenuStripIntegerNumberTo</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripIntegerNumberTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="contextMenuStripListOfIntegerNumbersTo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <data name="integerNumberToolStripMenuItemListOfIntegerNumbersTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="integerNumberToolStripMenuItemListOfIntegerNumbersTo.Text" xml:space="preserve">
+    <value>64-bit integer number</value>
+  </data>
+  <data name="floatingPointNumberToolStripMenuItemListOfIntegerNumbersTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="floatingPointNumberToolStripMenuItemListOfIntegerNumbersTo.Text" xml:space="preserve">
+    <value>Floating-point number</value>
+  </data>
+  <data name="listOfFloatingPointNumbersToolStripMenuItemListOfIntegerNumbersTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="listOfFloatingPointNumbersToolStripMenuItemListOfIntegerNumbersTo.Text" xml:space="preserve">
+    <value>List of floating-point numbers</value>
+  </data>
+  <data name="contextMenuStripListOfIntegerNumbersTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 70</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripListOfIntegerNumbersTo.Name" xml:space="preserve">
+    <value>contextMenuStripListOfIntegerNumbersTo</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripListOfIntegerNumbersTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="contextMenuStripFloatingPointNumberTo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>300, 56</value>
+  </metadata>
+  <data name="integerNumberToolStripMenuItemFloatingPointNumberTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="integerNumberToolStripMenuItemFloatingPointNumberTo.Text" xml:space="preserve">
+    <value>64-bit integer number</value>
+  </data>
+  <data name="listOfIntegerNumbersToolStripMenuItemFloatingPointNumberTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="listOfIntegerNumbersToolStripMenuItemFloatingPointNumberTo.Text" xml:space="preserve">
+    <value>List of 64-bit integer numbers</value>
+  </data>
+  <data name="listOfFloatingPointNumbersToolStripMenuItemFloatingPointNumberTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="listOfFloatingPointNumbersToolStripMenuItemFloatingPointNumberTo.Text" xml:space="preserve">
+    <value>List of floating-point numbers</value>
+  </data>
+  <data name="contextMenuStripFloatingPointNumberTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 70</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripFloatingPointNumberTo.Name" xml:space="preserve">
+    <value>contextMenuStripFloatingPointNumberTo</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripFloatingPointNumberTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="contextMenuStripListOfFloatingPointNumbersTo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>580, 56</value>
+  </metadata>
+  <data name="integerNumberToolStripMenuItemListOfFloatingPointNumbersTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="integerNumberToolStripMenuItemListOfFloatingPointNumbersTo.Text" xml:space="preserve">
+    <value>64-bit integer number</value>
+  </data>
+  <data name="floatingPointNumberToolStripMenuItemListOfFloatingPointNumbersTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="floatingPointNumberToolStripMenuItemListOfFloatingPointNumbersTo.Text" xml:space="preserve">
+    <value>Floating-point number</value>
+  </data>
+  <data name="listOfIntegerNumbersToolStripMenuItemListOfFloatingPointNumbersTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="listOfIntegerNumbersToolStripMenuItemListOfFloatingPointNumbersTo.Text" xml:space="preserve">
+    <value>List of 64-bit integer numbers</value>
+  </data>
+  <data name="contextMenuStripListOfFloatingPointNumbersTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 70</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripListOfFloatingPointNumbersTo.Name" xml:space="preserve">
+    <value>contextMenuStripListOfFloatingPointNumbersTo</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripListOfFloatingPointNumbersTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="contextMenuStripParametersTo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>896, 56</value>
+  </metadata>
+  <data name="listOfParametersToolStripMenuItemParametersTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="listOfParametersToolStripMenuItemParametersTo.Text" xml:space="preserve">
+    <value>List of Parameters</value>
+  </data>
+  <data name="contextMenuStripParametersTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 26</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripParametersTo.Name" xml:space="preserve">
+    <value>contextMenuStripParametersTo</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripParametersTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="contextMenuStripListOfParametersTo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1120, 56</value>
+  </metadata>
+  <data name="parametersToolStripMenuItemListOfParametersTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="parametersToolStripMenuItemListOfParametersTo.Text" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="contextMenuStripListOfParametersTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 26</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripListOfParametersTo.Name" xml:space="preserve">
+    <value>contextMenuStripListOfParametersTo</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripListOfParametersTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="contextMenuStripAdd.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>21, 17</value>
+  </metadata>
+  <data name="parametersToolStripMenuItemAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="parametersToolStripMenuItemAdd.Text" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="booleanToolStripMenuItemAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="booleanToolStripMenuItemAdd.Text" xml:space="preserve">
+    <value>Boolean value</value>
+  </data>
+  <data name="integerNumberToolStripMenuItemAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="integerNumberToolStripMenuItemAdd.Text" xml:space="preserve">
+    <value>64-bit integer number</value>
+  </data>
+  <data name="floatingPointNumberToolStripMenuItemAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="floatingPointNumberToolStripMenuItemAdd.Text" xml:space="preserve">
+    <value>Floating-point number</value>
+  </data>
+  <data name="stringToolStripMenuItemAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="stringToolStripMenuItemAdd.Text" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="byteArrayToolStripMenuItemAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="byteArrayToolStripMenuItemAdd.Text" xml:space="preserve">
+    <value>Byte-Array</value>
+  </data>
+  <data name="listOfBooleansToolStripMenuItemAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="listOfBooleansToolStripMenuItemAdd.Text" xml:space="preserve">
+    <value>List of boolean values</value>
+  </data>
+  <data name="listOfIntegerNumbersToolStripMenuItemAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="listOfIntegerNumbersToolStripMenuItemAdd.Text" xml:space="preserve">
+    <value>List of 64-bit integer numbers</value>
+  </data>
+  <data name="listOfFloatingPointNumbersToolStripMenuItemAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="listOfFloatingPointNumbersToolStripMenuItemAdd.Text" xml:space="preserve">
+    <value>List of floating-point numbers</value>
+  </data>
+  <data name="listOfStringsToolStripMenuItemAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="listOfStringsToolStripMenuItemAdd.Text" xml:space="preserve">
+    <value>List of strings</value>
+  </data>
+  <data name="listOfParametersToolStripMenuItemAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="listOfParametersToolStripMenuItemAdd.Text" xml:space="preserve">
+    <value>List of Parameters</value>
+  </data>
+  <data name="contextMenuStripAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 246</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripAdd.Name" xml:space="preserve">
+    <value>contextMenuStripAdd</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>146</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>491, 334</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>480, 330</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Parameters Editor</value>
+  </data>
+  <data name="&gt;&gt;listOfStringsToolStripMenuItemStringTo.Name" xml:space="preserve">
+    <value>listOfStringsToolStripMenuItemStringTo</value>
+  </data>
+  <data name="&gt;&gt;listOfStringsToolStripMenuItemStringTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stringToolStripMenuItemStringListTo.Name" xml:space="preserve">
+    <value>stringToolStripMenuItemStringListTo</value>
+  </data>
+  <data name="&gt;&gt;stringToolStripMenuItemStringListTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listOfBooleansToolStripMenuItemBooleanTo.Name" xml:space="preserve">
+    <value>listOfBooleansToolStripMenuItemBooleanTo</value>
+  </data>
+  <data name="&gt;&gt;listOfBooleansToolStripMenuItemBooleanTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;booleanToolStripMenuItemListOfBooleansTo.Name" xml:space="preserve">
+    <value>booleanToolStripMenuItemListOfBooleansTo</value>
+  </data>
+  <data name="&gt;&gt;booleanToolStripMenuItemListOfBooleansTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;floatingPointNumberToolStripMenuItemIntegerNumberTo.Name" xml:space="preserve">
+    <value>floatingPointNumberToolStripMenuItemIntegerNumberTo</value>
+  </data>
+  <data name="&gt;&gt;floatingPointNumberToolStripMenuItemIntegerNumberTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listOfIntegerNumbersToolStripMenuItemIntegerNumberTo.Name" xml:space="preserve">
+    <value>listOfIntegerNumbersToolStripMenuItemIntegerNumberTo</value>
+  </data>
+  <data name="&gt;&gt;listOfIntegerNumbersToolStripMenuItemIntegerNumberTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listOfFloatingPointNumbersToolStripMenuItemIntegerNumberTo.Name" xml:space="preserve">
+    <value>listOfFloatingPointNumbersToolStripMenuItemIntegerNumberTo</value>
+  </data>
+  <data name="&gt;&gt;listOfFloatingPointNumbersToolStripMenuItemIntegerNumberTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;integerNumberToolStripMenuItemListOfIntegerNumbersTo.Name" xml:space="preserve">
+    <value>integerNumberToolStripMenuItemListOfIntegerNumbersTo</value>
+  </data>
+  <data name="&gt;&gt;integerNumberToolStripMenuItemListOfIntegerNumbersTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;floatingPointNumberToolStripMenuItemListOfIntegerNumbersTo.Name" xml:space="preserve">
+    <value>floatingPointNumberToolStripMenuItemListOfIntegerNumbersTo</value>
+  </data>
+  <data name="&gt;&gt;floatingPointNumberToolStripMenuItemListOfIntegerNumbersTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listOfFloatingPointNumbersToolStripMenuItemListOfIntegerNumbersTo.Name" xml:space="preserve">
+    <value>listOfFloatingPointNumbersToolStripMenuItemListOfIntegerNumbersTo</value>
+  </data>
+  <data name="&gt;&gt;listOfFloatingPointNumbersToolStripMenuItemListOfIntegerNumbersTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;integerNumberToolStripMenuItemFloatingPointNumberTo.Name" xml:space="preserve">
+    <value>integerNumberToolStripMenuItemFloatingPointNumberTo</value>
+  </data>
+  <data name="&gt;&gt;integerNumberToolStripMenuItemFloatingPointNumberTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listOfIntegerNumbersToolStripMenuItemFloatingPointNumberTo.Name" xml:space="preserve">
+    <value>listOfIntegerNumbersToolStripMenuItemFloatingPointNumberTo</value>
+  </data>
+  <data name="&gt;&gt;listOfIntegerNumbersToolStripMenuItemFloatingPointNumberTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listOfFloatingPointNumbersToolStripMenuItemFloatingPointNumberTo.Name" xml:space="preserve">
+    <value>listOfFloatingPointNumbersToolStripMenuItemFloatingPointNumberTo</value>
+  </data>
+  <data name="&gt;&gt;listOfFloatingPointNumbersToolStripMenuItemFloatingPointNumberTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;integerNumberToolStripMenuItemListOfFloatingPointNumbersTo.Name" xml:space="preserve">
+    <value>integerNumberToolStripMenuItemListOfFloatingPointNumbersTo</value>
+  </data>
+  <data name="&gt;&gt;integerNumberToolStripMenuItemListOfFloatingPointNumbersTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;floatingPointNumberToolStripMenuItemListOfFloatingPointNumbersTo.Name" xml:space="preserve">
+    <value>floatingPointNumberToolStripMenuItemListOfFloatingPointNumbersTo</value>
+  </data>
+  <data name="&gt;&gt;floatingPointNumberToolStripMenuItemListOfFloatingPointNumbersTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listOfIntegerNumbersToolStripMenuItemListOfFloatingPointNumbersTo.Name" xml:space="preserve">
+    <value>listOfIntegerNumbersToolStripMenuItemListOfFloatingPointNumbersTo</value>
+  </data>
+  <data name="&gt;&gt;listOfIntegerNumbersToolStripMenuItemListOfFloatingPointNumbersTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listOfParametersToolStripMenuItemParametersTo.Name" xml:space="preserve">
+    <value>listOfParametersToolStripMenuItemParametersTo</value>
+  </data>
+  <data name="&gt;&gt;listOfParametersToolStripMenuItemParametersTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;parametersToolStripMenuItemListOfParametersTo.Name" xml:space="preserve">
+    <value>parametersToolStripMenuItemListOfParametersTo</value>
+  </data>
+  <data name="&gt;&gt;parametersToolStripMenuItemListOfParametersTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;parametersToolStripMenuItemAdd.Name" xml:space="preserve">
+    <value>parametersToolStripMenuItemAdd</value>
+  </data>
+  <data name="&gt;&gt;parametersToolStripMenuItemAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;booleanToolStripMenuItemAdd.Name" xml:space="preserve">
+    <value>booleanToolStripMenuItemAdd</value>
+  </data>
+  <data name="&gt;&gt;booleanToolStripMenuItemAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;integerNumberToolStripMenuItemAdd.Name" xml:space="preserve">
+    <value>integerNumberToolStripMenuItemAdd</value>
+  </data>
+  <data name="&gt;&gt;integerNumberToolStripMenuItemAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;floatingPointNumberToolStripMenuItemAdd.Name" xml:space="preserve">
+    <value>floatingPointNumberToolStripMenuItemAdd</value>
+  </data>
+  <data name="&gt;&gt;floatingPointNumberToolStripMenuItemAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stringToolStripMenuItemAdd.Name" xml:space="preserve">
+    <value>stringToolStripMenuItemAdd</value>
+  </data>
+  <data name="&gt;&gt;stringToolStripMenuItemAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;byteArrayToolStripMenuItemAdd.Name" xml:space="preserve">
+    <value>byteArrayToolStripMenuItemAdd</value>
+  </data>
+  <data name="&gt;&gt;byteArrayToolStripMenuItemAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listOfBooleansToolStripMenuItemAdd.Name" xml:space="preserve">
+    <value>listOfBooleansToolStripMenuItemAdd</value>
+  </data>
+  <data name="&gt;&gt;listOfBooleansToolStripMenuItemAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listOfIntegerNumbersToolStripMenuItemAdd.Name" xml:space="preserve">
+    <value>listOfIntegerNumbersToolStripMenuItemAdd</value>
+  </data>
+  <data name="&gt;&gt;listOfIntegerNumbersToolStripMenuItemAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listOfFloatingPointNumbersToolStripMenuItemAdd.Name" xml:space="preserve">
+    <value>listOfFloatingPointNumbersToolStripMenuItemAdd</value>
+  </data>
+  <data name="&gt;&gt;listOfFloatingPointNumbersToolStripMenuItemAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listOfStringsToolStripMenuItemAdd.Name" xml:space="preserve">
+    <value>listOfStringsToolStripMenuItemAdd</value>
+  </data>
+  <data name="&gt;&gt;listOfStringsToolStripMenuItemAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listOfParametersToolStripMenuItemAdd.Name" xml:space="preserve">
+    <value>listOfParametersToolStripMenuItemAdd</value>
+  </data>
+  <data name="&gt;&gt;listOfParametersToolStripMenuItemAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ParametersEditorForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
